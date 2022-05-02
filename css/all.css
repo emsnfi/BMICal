@@ -43,7 +43,6 @@
 .warning {
     font-size: 13px;
     color: #FFD366;
-    /* margin-top: 6px; */
     display: block;
     text-align: right;
 }
@@ -107,7 +106,7 @@
     bottom: 7px;
     right: -6px;
     border-radius: 50%;
-    /* background: #86D73F; */
+
 }
 
 
@@ -119,7 +118,6 @@
     margin: 5px auto;
 
 }
-
 
 /* record part */
 
@@ -166,6 +164,10 @@
     background: white;
     margin-bottom: 22px;
     padding: 15px 10px;
+}
+
+.record-list li:hover {
+    background: #E0E0E0;
 }
 
 .record a {

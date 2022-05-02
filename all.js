@@ -88,6 +88,12 @@ function renderRecordList(){
     let list ='';
     let result = dataAry;
     console.log(result)
+    if(result.length != 0){
+        clearAll.classList.remove('visi')
+    }
+    else{
+        clearAll.classList.add('visi')
+    }
     for(let i = result.length-1;i >= 0;i--){
         let{BMI,height,weight,date,condition,color} = result[i]
         list = list + 
@@ -154,7 +160,6 @@ function renderStatus(result){
     lastresult.classList.remove('d-none');
     resulText.textContent = BMI
     resultstatus.textContent = condition
-    // resultNumber.classList.add
     restart.style['background-color'] = color;
     resulText.style['color'] = color;
     resultstatus.style['color'] = color;
