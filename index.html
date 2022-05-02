@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>BMI</title>
+</head>
+<body>
+    <!-- calculation input -->
+    <div class="container_cal">
+        <img src="img/BMICLogo.png" alt="BMI logo">
+        <form action="" class ="input_field">
+            <label for="height">身高 cm</label>
+            <input type="text" id ="height" placeholder = "請輸入身高" min="1">
+            <span class="warning heightwarn visi" >此欄位必填</span>
+            <label for="weight">體重 kg</label>
+            <input type="text" id ="weight" placeholder = "請輸入體重" min="1">
+            <span class="warning weightwarn visi" >此欄位必填</span>
+        </form>
+        <div class="result">
+            <button class="see_result ">看結果</button>
+            <div class="lastresult d-none" >
+                <div class="result-number">
+                    <span class="result-text"></span>
+                    <span class="bmitext">BMI</span>
+                    <a href="#" class="restart" >
+                        <img src="img/icons_loop.png" alt="restart">
+                    </a>
+                </div>
+                <div class="result-status">
+                    <span>正常</span>
+                </div>
+            </div>
+        </div>
+
+        
+       
+    </div>
+
+
+
+    <!-- Record part -->
+    <div class="container-record">
+        <div class="record">
+        <div class="head">
+            <div></div>
+            <h1>BMI 紀錄</h1>
+            <a href="" class="clearAll">
+                <i class="fa-solid fa-trash-can"></i>
+            </a>
+        </div>
+            
+        <ul class="record-list">
+            
+
+        </ul>
+    </div>
+</div>
+
+    <!-- footer -->
+    <div class="footer">
+
+        <img src="https://hexschool.github.io/JavaScript_HomeWork/assets/BMICLogo.png" alt="BMI logo">
+    </div>
+
+</body>
+
+<script src="all.js"></script>
+</html>

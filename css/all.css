@@ -1,0 +1,222 @@
+/* calculation part */
+
+
+.container_cal {
+    background: #424242;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.container_cal img {
+    width: 117px;
+    height: 117px;
+}
+
+.input_field label,
+.input_field input {
+    display: block;
+
+}
+
+.input_field label {
+    color: #FFD366;
+    margin-bottom: 8px;
+}
+
+.input_field input {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.input_field input::placeholder {
+    color: wheat
+}
+
+.warning {
+    font-size: 13px;
+    color: #FFD366;
+    /* margin-top: 6px; */
+    display: block;
+    text-align: right;
+}
+
+/* result status */
+
+.see_result {
+    background: #FFD366;
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    font-size: 24px;
+    border: none;
+    position: relative;
+}
+
+.see_result:hover {
+    background: #FFD366;
+    box-shadow: 0 1px 6px 3px rgba(255, 196, 50, 0.64);
+    cursor: pointer;
+}
+
+.see_result:active {
+    background: #DEA821;
+}
+
+.lastresult {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+
+}
+
+.result-number {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.result-text {
+    margin-bottom: 5px;
+}
+
+.bmitext {
+    font-size: 14px;
+}
+
+
+.restart {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #424242;
+    position: absolute;
+    bottom: 7px;
+    right: -6px;
+    border-radius: 50%;
+    /* background: #86D73F; */
+}
+
+
+.restart img {
+
+    width: 16px;
+    height: 21px;
+    display: block;
+    margin: 5px auto;
+
+}
+
+
+/* record part */
+
+.container-record {
+    background: #e5e5e5;
+    padding: 30px;
+
+}
+
+.record {
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.record h1 {
+    font-size: 24px;
+    color: #424242;
+}
+
+.record .head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.record i {
+    color: black;
+    font-size: 20px;
+}
+
+.record-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.record-list li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    margin-bottom: 22px;
+    padding: 15px 10px;
+}
+
+.record a {
+    padding: 15px;
+    display: block;
+}
+
+.record-list li h3 {
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.record-list li h4 {
+    font-size: 14px;
+    color: #424242;
+}
+
+.record-list li span {
+    font-size: 16px;
+    color: #4A4A4A;
+    margin-left: 15px;
+}
+
+.record-list .detail {
+    display: flex;
+}
+
+
+
+/* footer */
+
+.footer {
+    background: #FFD366;
+    padding: 23px;
+}
+
+.footer img {
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/* other CSS */
+.d-none {
+    display: none;
+}
+
+.visi {
+    visibility: hidden;
+}
